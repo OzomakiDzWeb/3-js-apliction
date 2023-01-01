@@ -1,0 +1,53 @@
+body{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 100vh;
+   width: 100vw;
+   justify-content: space-around;
+   align-items: center;
+   background-color: rgb(8, 8, 8);
+}
+p{
+   color: aliceblue;
+   font-size: 50px;
+}
+.keys{
+   width: 80%;
+   height: 80px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 20px;
+}
+
+.keys .key{
+   width: 60px;
+   background-color:green;
+   font-size: 20px;
+   color: aliceblue;
+   cursor: pointer;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid red;
+}
+.key.playing{
+   transform: scale(1.2);
+   background-color: aliceblue;
+   color: black;
+}
+/******/
+.bobo{
+   width: 245px;
+   text-align: center;
+   height: 20px;
+   color: aliceblue;
+   background-color: green;
+   visibility:visible;
+}
+.visibl{
+   visibility: hidden;
+}
